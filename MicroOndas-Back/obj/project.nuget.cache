@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tXQ7jZY9830=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Benner\\MicroOndas\\MicroOndas-Back\\MicroOndas-Back.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

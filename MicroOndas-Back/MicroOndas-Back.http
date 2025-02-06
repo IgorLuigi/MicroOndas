@@ -1,0 +1,6 @@
+@MicroOndas_Back_HostAddress = http://localhost:5285
+
+GET {{MicroOndas_Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

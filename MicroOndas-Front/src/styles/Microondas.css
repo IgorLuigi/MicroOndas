@@ -1,0 +1,261 @@
+/* Estilos gerais do micro-ondas */
+.microondas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    width: 730px;
+    height: 470px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.controle-microondas {
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+/* Porta do micro-ondas */
+.porta-microondas {
+    width: 50%;
+    height: 100%;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.janela {
+    width: 80%;
+    height: 80%;
+    background-color: #000;
+    /* margin: 0 auto; */
+    position: relative;
+    border-radius: 10px;
+}
+
+/* Corpo do micro-ondas (lado direito) */
+.corpo-microondas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Tela do micro-ondas */
+.tela-microondas {
+    width: 85%;
+    min-height: 40px;
+    max-height: 150px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    border: 2px solid #444;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    overflow: auto;
+}
+
+/* Input de tempo */
+.entrada-tempo {
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+/* Teclado numérico */
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Botões do teclado numérico */
+.botao-teclado {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-teclado:hover {
+    background-color: #ccc;
+}
+
+.botao-teclado.zero {
+    grid-column: span 3;
+}
+
+.botao-teclado:hover {
+    background-color: #ccc;
+}
+
+/* Botões Iniciar e Cancelar */
+.botoes-microondas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botao-iniciar,
+.botao-cancelar {
+    padding: 15px 25px;
+    font-size: 13px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48%;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botao-cancelar {
+    background-color: #f44336;
+}
+
+.botao-iniciar:hover {
+    background-color: #45a049;
+}
+
+.botao-cancelar:hover {
+    background-color: #e53935;
+}
+
+/* Estilo para a div que agrupa o tempo e a potência */
+.tempo-e-potencia {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o item de tempo e potência */
+.item-controle {
+    text-align: center;
+    width: 54%;
+    color: white;
+}
+
+.item-controle label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.entrada-tempo,
+.entrada-potencia {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilos adicionais */
+.entrada-tempo {
+    width: 80px;
+}
+
+.aquecimentos-pre-definidos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 7px;
+}
+
+.botao-aquecimento {
+    width: 80px;
+    height: 80px;
+    background-color: #747574;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.botao-aquecimento.selecionado {
+    background-color: #45a049;
+    color: #fff;
+}
+
+.adicionar-programa {
+    text-align: center;
+}
+
+.botao-adicionar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+}
+
+.botao-adicionar:hover {
+    background-color: #45a049;
+}
+
+.formulario-adicionar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.adicionar-programa {
+    text-align: center;
+    margin-top: 20px;
+}

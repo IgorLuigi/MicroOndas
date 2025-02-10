@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroOndas-Back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40296b19efdbc908687c134b010c1819a7104a75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a1226e456a2bfd156202775c1a76e565dc25cc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroOndas-Back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroOndas-Back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

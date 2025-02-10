@@ -8,6 +8,7 @@ C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\bin\Debug\net9.0\Micr
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\bin\Debug\net9.0\MicroOndas-Back.pdb
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.csproj.AssemblyReference.cache
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.AssemblyInfoInputs.cache
@@ -26,10 +27,10 @@ C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\stat
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MicroOndas-Back.props
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MicroOndas-Back.props
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOnd.FE2CE373.Up2Date
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.dll
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\refint\MicroOndas-Back.dll
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.pdb
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\MicroOndas-Back.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\ref\MicroOndas-Back.dll
+C:\Users\Usuario\Desktop\Benner\MicroOndas\MicroOndas-Back\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
